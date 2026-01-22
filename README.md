@@ -42,7 +42,7 @@ A powerful and elegant tool for creating beautiful code screenshots to share on 
 ## 🛠️ Tech Stack
 
 ### Frontend Framework
-- [**Next.js 15**](https://nextjs.org) – React framework with App Router and Turbopack
+- [**Next.js 16**](https://nextjs.org) – React framework with App Router and Turbopack (Updated for security - CVE-2025-55182)
 - [**React 19**](https://react.dev) – Latest React with concurrent features
 - [**TypeScript**](https://www.typescriptlang.org) – Type-safe development
 
@@ -230,6 +230,16 @@ https://snippix.vercel.app/?theme=hyper&language=javascript&fontSize=18
 
 ### Local Storage
 User preferences are automatically saved to browser localStorage under the key `user-preferences`.
+
+---
+
+## 🔒 Security
+
+This project has been updated to address security vulnerabilities:
+
+- **Next.js 16.1.4**: Updated from 15.3.1 to resolve CVE-2025-55182 security vulnerability
+- **Dependencies**: All dependencies are regularly updated to their latest secure versions
+- **Build Process**: Automated security checks during deployment
 
 ---
 
